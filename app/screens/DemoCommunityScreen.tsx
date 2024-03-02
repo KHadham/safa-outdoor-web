@@ -14,7 +14,7 @@ const reactNativeNewsletterLogo = require("../../assets/images/demo/rnn-logo.png
 export const DemoCommunityScreen: FC<TabScreenProps<"DemoCommunity">> =
   function DemoCommunityScreen(_props) {
     return (
-      <Screen preset="scroll" contentContainerStyle={$container} safeAreaEdges={["top"]}>
+      <Screen withFooter preset="scroll" contentContainerStyle={$container} safeAreaEdges={["top"]}>
         <Text preset="heading" tx="demoCommunityScreen.title" style={$title} />
         <Text tx="demoCommunityScreen.tagLine" style={$tagline} />
 

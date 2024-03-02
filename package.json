@@ -28,7 +28,9 @@
     "bundle:web": "npx expo export --platform web",
     "serve:web": "npx server dist",
     "prebuild:clean": "npx expo prebuild --clean",
-    "prebuild": "npx expo prebuild"
+    "prebuild": "npx expo prebuild",
+    "predeploy": "expo export -p web",
+    "deploy-hosting": "npm run predeploy && firebase deploy --only hosting"
   },
   "dependencies": {
     "@expo-google-fonts/space-grotesk": "^0.2.2",

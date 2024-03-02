@@ -7,9 +7,11 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     flexDirection: "row",
     flexWrap: "wrap",
+    flex:1,
     gap: spacing.md,
-    marginHorizontal: -spacing.lg,
-    padding: spacing.md,
+    margin: -spacing.lg,
+    marginTop:0,
+    padding: spacing.lg,
   },
 })
 export default styles

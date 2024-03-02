@@ -11,9 +11,7 @@ function openLinkInBrowser(url: string) {
   Linking.canOpenURL(url).then((canOpen) => canOpen && Linking.openURL(url))
 }
 
-export const DemoDebugScreen: FC<TabScreenProps<"DemoDebug">> = function DemoDebugScreen(
-  _props,
-) {
+export const DemoDebugScreen: FC<TabScreenProps<"DemoDebug">> = function DemoDebugScreen(_props) {
   const {
     authenticationStore: { logout },
   } = useStores()
@@ -42,7 +40,7 @@ export const DemoDebugScreen: FC<TabScreenProps<"DemoDebug">> = function DemoDeb
   )
 
   return (
-    <Screen preset="scroll" safeAreaEdges={["top"]} contentContainerStyle={$container}>
+    <Screen withFooter preset="scroll" safeAreaEdges={["top"]} contentContainerStyle={$container}>
       <Text
         style={$reportBugsLink}
         tx="demoDebugScreen.reportBugs"
@@ -111,8 +109,9 @@ export const DemoDebugScreen: FC<TabScreenProps<"DemoDebug">> = function DemoDeb
 }
 
 const $container: ViewStyle = {
-  paddingTop: spacing.lg + spacing.xl,
-  paddingBottom: spacing.xxl,
+  paddingVertical: spacing.lg,
+  // paddingTop: spacing.lg + spacing.xl,
+  // paddingBottom: spacing.xxl,
   paddingHorizontal: spacing.lg,
 }
 

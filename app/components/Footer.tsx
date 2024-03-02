@@ -4,12 +4,11 @@ import { ListItem, Text } from "../components"
 import Icons from "@expo/vector-icons/MaterialCommunityIcons"
 import { openLinkInBrowser } from "app/utils/openLinkInBrowser"
 import { spacing } from "app/theme"
-import { dynamicColPercentage, dynamicColWidth } from "app/utils/uiHandler"
+import { dynamicColPercentage } from "app/utils/uiHandler"
 import styles from "./styles"
 import { widthByScreen } from "app/utils/dimensions"
 
 export const Footer = () => {
-  alert(widthByScreen(100))
   return (
     <View style={styles.row}>
       <View style={{ flex: 1, minWidth: dynamicColPercentage() }}>

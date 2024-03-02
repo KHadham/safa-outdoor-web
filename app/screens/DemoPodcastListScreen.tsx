@@ -74,6 +74,7 @@ export const DemoPodcastListScreen: FC<TabScreenProps<"DemoPodcastList">> = obse
         preset="fixed"
         safeAreaEdges={["top"]}
         contentContainerStyle={$screenContentContainer}
+        withFooter
       >
         <ListView<Episode>
           contentContainerStyle={$listContentContainer}

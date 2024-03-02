@@ -14,8 +14,10 @@ import {
 } from "react-native"
 import { colors } from "../theme"
 import { ExtendedEdge, useSafeAreaInsetsStyle } from "../utils/useSafeAreaInsetsStyle"
+import { Footer } from "app/components/Footer"
 
 interface BaseScreenProps {
+  withFooter?: boolean
   /**
    * Children components.
    */
@@ -138,10 +140,11 @@ function useAutoPreset(props: AutoScreenProps) {
 }
 
 function ScreenWithoutScrolling(props: ScreenProps) {
-  const { style, contentContainerStyle, children } = props
+  const { style, contentContainerStyle, children, withFooter } = props
   return (
     <View style={[$outerStyle, style]}>
       <View style={[$innerStyle, contentContainerStyle]}>{children}</View>
+      {withFooter && <Footer />}
     </View>
   )
 }
@@ -153,6 +156,7 @@ function ScreenWithScrolling(props: ScreenProps) {
     contentContainerStyle,
     ScrollViewProps,
     style,
+    withFooter,
   } = props as ScrollScreenProps
 
   const ref = useRef<ScrollView>(null)
@@ -183,6 +187,7 @@ function ScreenWithScrolling(props: ScreenProps) {
       ]}
     >
       {children}
+      {withFooter && <Footer />}
     </ScrollView>
   )
 }
