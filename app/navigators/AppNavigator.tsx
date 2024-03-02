@@ -20,7 +20,6 @@ import { useStores } from "../models"
 import { DemoNavigator, DemoTabParamList } from "./DemoNavigator"
 import { navigationRef, useBackButtonHandler } from "./navigationUtilities"
 import { colors } from "app/theme"
-import { createDrawerNavigator } from "@react-navigation/drawer"
 
 /**
  * This type allows TypeScript to know what routes are defined in this navigator
@@ -56,7 +55,6 @@ export type AppStackScreenProps<T extends keyof AppStackParamList> = NativeStack
 
 // Documentation: https://reactnavigation.org/docs/stack-navigator/
 const Stack = createNativeStackNavigator<AppStackParamList>()
-const Drawer = createDrawerNavigator()
 
 const AppStack = observer(function AppStack() {
   const {
