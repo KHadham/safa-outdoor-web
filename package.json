@@ -16,7 +16,7 @@
     "react-medium-image-zoom": "^5.2.5",
     "react-photo-view": "^1.2.6",
     "react-reveal": "^1.2.2",
-    "react-scripts": "5.0.2",
+    "react-scripts": "5.0.1",
     "react-zmage": "0.8.5",
     "web-vitals": "^1.0.1"
   },
