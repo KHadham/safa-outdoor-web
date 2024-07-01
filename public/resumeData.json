@@ -1,19 +1,19 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Safa Outdoor",
+    "description":"Sekarang naik gunung gak perlu pake mahal, Cukup sewa aja dan ga perlu lagi takut kotor",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Kita adalah tempat sewa alat outdoor yang oke banget buat kamu yang suka petualangan di alam terbuka. Kita punya segala macem alat-alat yang kamu butuhin, mulai dari tenda, sleeping bag, sampe peralatan memasak yang bisa bikin camping jadi lebih santuy, keren, dan enjoy. Tempatnya juga strategis banget, pinggir jalan raya bogor deket ibu kota. Pokoknya, buat yang mau nikmatin alam tanpa harus repot beli beli perlengkapan alat alat sendiri, Safa Outdoor ini bisa jadi pilihan yang pas banget!",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "safaoutdoor@gmail.com",
+    "phone": "+62 819-1085-9555",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Jl. Raya Bogor No.KM.28 No.34",
+      "city":"RT.3/RW.2, Pekayon",
+      "state":"Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+      "zip": "13710"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
