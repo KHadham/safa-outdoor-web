@@ -9,10 +9,10 @@ const Header = ({ data }) => {
 
   const handleDownload = () => {
     // Replace with your image URL
-    const imageUrl = 'images/home-banner.png';
+    const pdfFile = 'pdf/pricelist.pdf';
     const link = document.createElement('a');
-    link.href = imageUrl;
-    link.download = 'image.jpg';
+    link.href = pdfFile;
+    link.download = pdfFile
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -72,10 +72,10 @@ const Header = ({ data }) => {
           <hr />
           <Fade bottom duration={2000}>
             <ul className="social">
-              {/* <a href={project} className="button btn project-btn" onClick={(e) => handleDownload()}
+              <a href={project} className="button btn project-btn" onClick={(e) => handleDownload()}
               >
                 <i className="fa fa-book"></i>Download Price List
-              </a> */}
+              </a>
               <a href={'https://photos.app.goo.gl/EcbdASTf98MGxsYo9'} className="button btn github-btn" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-camera"></i>Gallery
               </a>
