@@ -33,7 +33,7 @@ const Header = ({ data }) => {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              Home
+              Intro
             </a>
           </li>
           <li>
@@ -43,18 +43,18 @@ const Header = ({ data }) => {
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+              Alat
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#resume">
-              Resume
+              Testimoni
             </a>
           </li>
-         
+
           <li>
             <a className="smoothscroll" href="#contact">
-              Contact
+              Sewa
             </a>
           </li>
         </ul>
@@ -63,7 +63,8 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <Fade bottom>
-            <h1 className="responsive-headline">{name}</h1>
+            {/* <h1 className="responsive-headline">{name}</h1> */}
+            <img src="images/logotext.jpg" alt="background" />
           </Fade>
           <Fade bottom duration={1200}>
             <h3 >Beli is mahal, Sewa is Murah</h3>
@@ -72,14 +73,14 @@ const Header = ({ data }) => {
           <hr />
           <Fade bottom duration={2000}>
             <ul className="social">
-              <a href={project} className="button btn project-btn" onClick={(e) => handleDownload()}
+              <button className="button btn project-btn" onClick={(e) => handleDownload()}
               >
                 <i className="fa fa-book"></i>Download Price List
-              </a>
+              </button>
               <a href={'https://photos.app.goo.gl/EcbdASTf98MGxsYo9'} className="button btn github-btn" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-camera"></i>Gallery
               </a>
-              
+
             </ul>
           </Fade>
         </div>

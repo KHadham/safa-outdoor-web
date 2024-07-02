@@ -31,6 +31,30 @@ class About extends Component {
               <h2>Safa Outdoor apa sih?</h2>
 
               <p>{bio}</p>
+              <div className="row">
+                <div className="columns contact-details">
+                  <h2>Lokasi</h2>
+                  <p className="address">
+                    <span>{name}</span>
+                    <br />
+                    <span>
+                      {street}
+                      <br />
+                      {city} {state}, {zip}
+                    </span>
+                    <br />
+                    <span>{phone}</span>
+                    <br />
+                  </p>
+                </div>
+                <div className="columns download">
+                  <p>
+                    <a href={"https://maps.app.goo.gl/tasKpYVF6v9psnSB9"} className="button btn project-btn" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-map-marker"></i>Google Maps
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </Fade>

@@ -21,7 +21,6 @@ class Portfolio extends Component {
               <img alt={projects.title} src={projectImage} />
               </PhotoView>
               <div style={{ textAlign: "center" }}>{projects.title}</div>
-
           </div>
         </div>
       );

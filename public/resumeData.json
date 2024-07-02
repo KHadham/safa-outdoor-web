@@ -1,184 +1,293 @@
 {
   "main": {
-    "name":"Safa Outdoor",
-    "description":"Sekarang naik gunung gak perlu pake mahal, Cukup sewa aja dan ga perlu lagi takut kotor",
-    "image":"profilepic.jpg",
-    "bio":"Kita adalah tempat sewa alat outdoor yang oke banget buat kamu yang suka petualangan di alam terbuka. Kita punya segala macem alat-alat yang kamu butuhin, mulai dari tenda, sleeping bag, sampe peralatan memasak yang bisa bikin camping jadi lebih santuy, keren, dan enjoy. Tempatnya juga strategis banget, pinggir jalan raya bogor deket ibu kota. Pokoknya, buat yang mau nikmatin alam tanpa harus repot beli beli perlengkapan alat alat sendiri, Safa Outdoor ini bisa jadi pilihan yang pas banget!",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Safa Outdoor",
+    "description": "Sekarang naik gunung gak perlu pake mahal, Cukup sewa aja dan ga perlu lagi takut kotor",
+    "image": "profilepic.jpg",
+    "bio": "Kita adalah tempat sewa alat outdoor yang oke banget buat kamu yang suka petualangan di alam terbuka. Kita punya segala macem alat-alat yang kamu butuhin, mulai dari tenda, sleeping bag, sampe peralatan memasak yang bisa bikin camping jadi lebih santuy, keren, dan enjoy. Tempatnya juga strategis banget, pinggir jalan raya bogor deket ibu kota. Pokoknya, buat yang mau nikmatin alam tanpa harus repot beli beli perlengkapan alat alat sendiri, Safa Outdoor ini bisa jadi pilihan yang pas banget!",
+    "contactmessage": "Mau sewa, beli, atau ikut trip ? bisa hubungi kami lewat instagram atau whatsapp di bawah ini",
     "email": "safaoutdoor@gmail.com",
     "phone": "+62 819-1085-9555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"Jl. Raya Bogor No.KM.28 No.34",
-      "city":"RT.3/RW.2, Pekayon",
-      "state":"Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+    "github": "https://github.com/nordicgiant2/react-nice-resume",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "Jl. Raya Bogor No.KM.28 No.34",
+      "city": "RT.3/RW.2, Pekayon",
+      "state": "Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
       "zip": "13710"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "youtube",
+        "url": "https://youtube.com/@safaoutdooryt",
+        "className": "fa fa-youtube"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "instagram",
+        "url": "https://www.instagram.com/safa_outdoors/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "instagram",
+        "url": "https://www.instagram.com/safa_thrift/",
+        "className": "fa fa-shopping-cart"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "whatsapp",
+        "url": "wa.me/+6281910859555",
+        "className": "fa fa-phone"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "work": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "company": "Campbuburit Bukit Citacita",
+        "title": "Senior UX God ",
+        "years": "March 2018 - Present",
+        "description": "Camping sahur dan berbuka puasa bersama di camping ground Bukit Citacita",
+        "photos": [
+          {
+            "image": "images/testimoni/cita-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/cita-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/cita-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "company": "Tektok gunung andong",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Pendakian bersama ke gunung andong.",
+        "photos": [
+          {
+            "image": "images/testimoni/andong-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/andong-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/andong-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
+      },
+      {
+        "company": "Explore curug seribu",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "One day trip , Explore curug seribu di kaki gunung salak",
+        "photos": [
+          {
+            "image": "images/testimoni/curug-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/curug-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/curug-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
+      },
+      {
+        "company": "Persami MTSN 3 Pandeglang",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Kegiatan Pramuka dari MTSN 3 Pandeglang di Jambore cibubur",
+        "photos": [
+          {
+            "image": "images/testimoni/jambore-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/jambore-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/jambore-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
+      },
+      {
+        "company": "Campcer",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Camping santuy ceria komunitas jogja di kaki gunung merapi",
+        "photos": [
+          {
+            "image": "images/testimoni/jogja-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/jogja-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/jogja-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
+      },
+      {
+        "company": "MTMA",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Gathering komunitas MTMA Jawa barat",
+        "photos": [
+          {
+            "image": "images/testimoni/mtma-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/mtma-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/mtma-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
+      },
+      {
+        "company": "Persami ",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Acara Gathering komunitas MTMA Jawa barat",
+        "photos": [
+          {
+            "image": "images/testimoni/ragunan-1.jpg",
+            "title": "Photo 1"
+          },
+          {
+            "image": "images/testimoni/ragunan-2.jpg",
+            "title": "Photo 2"
+          },
+          {
+            "image": "images/testimoni/ragunan-3.jpg",
+            "title": "Photo 3"
+          }
+        ]
       }
     ],
-    "work":[
+    "skills": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "name": "Python",
+        "level": "60%"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
+        "name": "VueJs",
+        "level": "55%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "CSS",
+        "level": "90%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "PHP",
+        "level": "80%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "Swift",
+        "level": "50%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "JAVA",
+        "level": "80%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Jaket Bulu Angsa",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Head Lamp",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Sleeping Pad",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Lampu Tenda",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Hammock",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Sepatu",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Sleeping Bag",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "07.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Kursi Camping",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "08.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Tenda",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "09.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Tas Carrier",
+        "category": "A React based resume website template",
+        "image": "10.jpg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Tracking Pole",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "11.jpg",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Kompor Camping",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "12.jpg",
+        "url": "https://www.canadianwanderlust.com"
       }
     ]
   }
